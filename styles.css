@@ -1,0 +1,94 @@
+body {
+    background-image: url('background.jpeg'); /* Reference to the image in the same directory */
+    background-size: cover; /* Covers the entire area, cutting off excess part */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the image fixed during scrolling */
+    background-position: center center;
+    font-family: Arial, sans-serif;
+    color: white; /* Adjust the text color for better visibility */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif; /* Apply Montserrat here */
+    color: rgb(225, 109, 82);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.title2 {
+    color: rgb(234, 158, 84)
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+
+.main h1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(103, 173, 91, 0.8);
+    width: fit-content;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 0;
+}
+
+.main p {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(225, 109, 82, 0.8);
+    width: fit-content;
+    padding: 16px;
+    border-radius: 0 0 8px 8px;
+    margin: 0;
+    font-size: 18px;
+}
+
+.main div {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0 0 8px 8px;
+    padding: 4px;
+
+}
+
+.social-icon {
+    text-decoration: none;
+    font-size: 40px; /* Adjust size as desired */
+    margin: 10px; /* Adjust spacing as desired */
+}
+
+.facebook .fa-facebook-square {
+    color: #1877F2; /* Facebook's brand color */
+}
+
+.instagram .fa-instagram-square {
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.twitter .fa-twitter-square {
+    color: #1DA1F2; /* Twitter's brand color */
+}
+
+.linkedin .fa-linkedin {
+    color: #0A66C2; /* LinkedIn's brand color */
+}
+
+.social-icon:hover {
+    opacity: 0.8; /* Slight transparency on hover */
+}
