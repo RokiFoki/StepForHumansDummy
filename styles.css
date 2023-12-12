@@ -1,5 +1,5 @@
 body {
-    background-image: url('background.jpeg'); /* Reference to the image in the same directory */
+    background-image: url('background.jpg'); /* Reference to the image in the same directory */
     background-size: cover; /* Covers the entire area, cutting off excess part */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-attachment: fixed; /* Keeps the image fixed during scrolling */
@@ -14,9 +14,11 @@ body {
 }
 
 .navbar {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.6);
     display: flex;
     align-items: center;
+    padding: 8px 24px;
+    gap: 8px;
 }
 
 .title {
